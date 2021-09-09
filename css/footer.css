@@ -1,16 +1,10 @@
 html, body {
-    height:100%;
+    display: flex;
+    min-height:100vh;
+    flex-direction: column;
+
 }
 
-#content {
-    position: relative;
-    min-height:100%;
-}
-
-footer {
-    height: 44px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+#main {
+    flex: 1;
 }

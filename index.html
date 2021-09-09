@@ -12,11 +12,11 @@
     <script src="/makaut/js/cgpa.js"></script>
 </head>
 
-<body class="bg-light bg-gradient container pt-3">
+<body id="wrapper" class="bg-light bg-gradient container pt-3">
     
     <h3> Convert MAKAUT's YGPA/SGPA to DGPA/CGPA</h3>
-    <div class="container m-3">
-        <form class="form-floating" onsubmit="return false">
+    <div id="main" class="container">
+        <form onsubmit="return false">
             <div class="form-group">
                 <label for="sem_1">1<sup>st</sup> semester SGPA</label>
                 <input type="number" class="form-control" id="sem_1" max="10" min=1 step="0.01">
@@ -69,6 +69,7 @@
 
     </div>
     <footer class="nav justify-content-center">
+    <!-- <footer> -->
         <li class="nav-item">
             <a href="https://github.com/uttarayan21/makaut" class="nav-link">Source</a>
         </li>
